@@ -45,7 +45,7 @@ LAG(timestamp) OVER (PARTITION BY visitorid ORDER BY timestamp)  -- 직전 이�
 
 ## 실행 방법
 
-1. `event_log_analysis.ipynb`를 Google Colab에서 엽니다.
+1. `RetailRocket.ipynb`를 Google Colab에서 엽니다.
 2. 첫 셀에서 `kaggle.json`을 업로드해 Kaggle 인증합니다.
 3. 위에서부터 순서대로 실행하면 데이터 다운로드 → SQLite 적재 → 이벤트 퍼널 → 세션화 → 장바구니 이탈 분석까지 진행됩니다.
 
